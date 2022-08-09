@@ -12,7 +12,7 @@ assemble a library for distribution.
 Clone the repository to use it as the base for a new library:
 
 ```
-git clone git@github.com:aptivator/js-library-seed.git
+git clone git@github.com:aptivator/js-library-seed.git <some-library-name>
 ```
 
 The following commands are implemented in `package.json`:
