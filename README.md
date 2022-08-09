@@ -9,13 +9,19 @@ assemble a library for distribution.
 
 ### Usage
 
+Clone the repository to use it as the base for a new library:
+
+```
+git clone git@github.com:aptivator/js-library-seed.git
+```
+
 The following commands are implemented in `package.json`:
 
-* `npm run build` - assembles source code into a UMD and module distributables
+* `npm run build` - assembles source code into a `UMD` and `module` distributables
 * `npm run dev` - watches `src` and `test` directories for changes and runs test files
 (`*.test.js`) in `test` directory.
 * `npm run dev:coverage` - runs `npm run dev` with code coverage
-* `npm run test` - executes test files one time
+* `npm run test` - executes test cases one time
 * `npm run test:coverage` - invokes `npm run test` with code coverage
 
 ### Publishing a Package
