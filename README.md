@@ -3,7 +3,7 @@
 ### Introduction
 
 This repository is a basic scaffold for writing isomorphic JavaScript libraries.
-The two main features provided by the setup are 1) a test-driven< and command-line
+The two main features provided by the setup are 1) a test-driven and command-line
 environment to track real-time results of development and 2) a build script to 
 assemble a library for distribution.
 
