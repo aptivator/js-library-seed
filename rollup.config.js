@@ -1,5 +1,5 @@
 import pick                from 'lodash.pick';
-import babel               from 'rollup-plugin-babel';
+import babel               from '@rollup/plugin-babel';
 import generatePackageJson from 'rollup-plugin-generate-package-json'
 
 let {main, module, name} = require('./package.json');
@@ -16,7 +16,7 @@ export default {
     name
   }],
   plugins: [
-    babel(),
+    babel({babelHelpers: 'bundled'}),
     generatePackageJson({
       baseContents(packageJson) {
         let fields = ['name', 'version', 'description', 'dependencies', 'peerDependencies'];
