@@ -3,9 +3,8 @@
 ### Introduction
 
 This repository is a basic scaffold for writing isomorphic JavaScript libraries.
-The two main features provided by the setup are 1) a test-driven and command-line
-environment to track real-time results of development and 2) a build script to 
-assemble a library for distribution.
+The setup provides a test-driven and command-line environment to track real-time
+results of development and a build script to assemble a library for distribution.
 
 ### Usage
 
@@ -44,6 +43,6 @@ The following commands are implemented in `package.json`:
 ### Caveats
 
 This scaffolding repository is basic.  For example, when creating libraries
-with external dependencies, `rollup.config.js` will need to be updated by
-including `external` and `globals` declarations.  Other configurations may
-be needed depending on the specifics of the developed library.
+with external dependencies, `rollup.config.js` will need to include `external`
+and `globals` declarations.  Other configurations may be needed depending on
+the specifics of the developed library.
